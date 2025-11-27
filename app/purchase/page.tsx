@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useEffect } from "react";
 import { analyzeProcessMaterials } from "../../lib/materialCheck";
-import { db } from "../../lib/firebase"; // Update path if needed
+import { db } from "@/lib/firebase";
 import { collection, getDocs, doc, updateDoc } from "firebase/firestore";
 
 function ManualPriceEntry({ material, onSave }) {
