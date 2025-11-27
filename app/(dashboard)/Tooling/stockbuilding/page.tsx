@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useState } from "react";
 import { collection, onSnapshot } from "firebase/firestore";
-import { db } from "../../../../../lib/firebase"; // <-- five dots up
+import { db } from "@/lib/firebase";
 import { Layers, Users, CheckCircle, ChevronRight } from "lucide-react";
 
 export default function StockBuildingDashboard() {

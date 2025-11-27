@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from "react";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
-import { db } from "../../../../../../lib/firebase";
+import { db } from "@/lib/firebase";
 import { Users, SquarePlus, Loader2, Send } from "lucide-react";
 
 export default function AddJobPage() {

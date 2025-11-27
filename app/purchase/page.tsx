@@ -1,3 +1,4 @@
+'use client';
 import React, { useState, useEffect } from "react";
 import { analyzeProcessMaterials } from "../../lib/materialCheck";
 import { db } from "../../lib/firebase"; // Update path if needed
